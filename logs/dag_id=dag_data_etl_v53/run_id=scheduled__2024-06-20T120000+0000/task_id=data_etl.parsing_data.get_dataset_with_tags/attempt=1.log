@@ -1,0 +1,116 @@
+[2024-06-21T00:02:34.846+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-21T00:02:34.863+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_data_etl_v53.data_etl.parsing_data.get_dataset_with_tags scheduled__2024-06-20T12:00:00+00:00 [queued]>
+[2024-06-21T00:02:34.867+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_data_etl_v53.data_etl.parsing_data.get_dataset_with_tags scheduled__2024-06-20T12:00:00+00:00 [queued]>
+[2024-06-21T00:02:34.868+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-06-21T00:02:34.876+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): data_etl.parsing_data.get_dataset_with_tags> on 2024-06-20 12:00:00+00:00
+[2024-06-21T00:02:34.881+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=7008) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-06-21T00:02:34.880+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dag_data_etl_v53', 'data_etl.parsing_data.get_dataset_with_tags', 'scheduled__2024-06-20T12:00:00+00:00', '--job-id', '238', '--raw', '--subdir', 'DAGS_FOLDER/data_etl_dag.py', '--cfg-path', '/tmp/tmp5egn_n01']
+[2024-06-21T00:02:34.882+0000] {standard_task_runner.py:63} INFO - Started process 7010 to run task
+[2024-06-21T00:02:34.882+0000] {standard_task_runner.py:91} INFO - Job 238: Subtask data_etl.parsing_data.get_dataset_with_tags
+[2024-06-21T00:02:34.948+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_data_etl_v53.data_etl.parsing_data.get_dataset_with_tags scheduled__2024-06-20T12:00:00+00:00 [running]> on host 10482076056f
+[2024-06-21T00:02:35.000+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Solarev Ruslan' AIRFLOW_CTX_DAG_ID='dag_data_etl_v53' AIRFLOW_CTX_TASK_ID='data_etl.parsing_data.get_dataset_with_tags' AIRFLOW_CTX_EXECUTION_DATE='2024-06-20T12:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-20T12:00:00+00:00'
+[2024-06-21T00:02:35.001+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-21T00:02:35.016+0000] {parse_hh.py:234} INFO - New profession was added: Администратор базы данных
+[2024-06-21T00:02:56.919+0000] {parse_hh.py:234} INFO - New profession was added: ERP-программист
+[2024-06-21T00:03:16.446+0000] {parse_hh.py:234} INFO - New profession was added: Тестировщик программного обеспечения (ПО)
+[2024-06-21T00:03:36.897+0000] {parse_hh.py:234} INFO - New profession was added: Модератор форума
+[2024-06-21T00:03:38.189+0000] {parse_hh.py:234} INFO - New profession was added: HTML-верстальщик
+[2024-06-21T00:03:39.698+0000] {parse_hh.py:234} INFO - New profession was added: Системный администратор
+[2024-06-21T00:03:59.832+0000] {parse_hh.py:234} INFO - New profession was added: IT-евангелист
+[2024-06-21T00:04:01.027+0000] {parse_hh.py:234} INFO - New profession was added: Технический писатель
+[2024-06-21T00:04:21.336+0000] {parse_hh.py:234} INFO - New profession was added: Администратор сайта
+[2024-06-21T00:04:41.575+0000] {parse_hh.py:234} INFO - New profession was added: Бизнес-аналитик 
+[2024-06-21T00:05:05.338+0000] {parse_hh.py:234} INFO - New profession was added: Специалист по информационной безопасности
+[2024-06-21T00:05:26.204+0000] {parse_hh.py:234} INFO - New profession was added: Веб-программист
+[2024-06-21T00:05:46.358+0000] {parse_hh.py:234} INFO - New profession was added: Программист
+[2024-06-21T00:06:08.314+0000] {parse_hh.py:234} INFO - New profession was added: Программист 1С
+[2024-06-21T00:06:30.255+0000] {parse_hh.py:234} INFO - New profession was added: Системный программист
+[2024-06-21T00:06:50.825+0000] {parse_hh.py:234} INFO - New profession was added: ERP-консультант
+[2024-06-21T00:07:12.207+0000] {parse_hh.py:234} INFO - New profession was added: Корпоративный архитектор
+[2024-06-21T00:07:32.458+0000] {parse_hh.py:234} INFO - New profession was added: QA-инженер
+[2024-06-21T00:07:52.973+0000] {parse_hh.py:234} INFO - New profession was added: SEO-специалист
+[2024-06-21T00:08:13.427+0000] {parse_hh.py:234} INFO - New profession was added: Data Scientist
+[2024-06-21T00:08:35.461+0000] {parse_hh.py:234} INFO - New profession was added: Frontend разработчик
+[2024-06-21T00:08:56.006+0000] {parse_hh.py:234} INFO - New profession was added: Backend разработчик
+[2024-06-21T00:09:16.248+0000] {parse_hh.py:234} INFO - New profession was added: Мобильный разработчик
+[2024-06-21T00:09:36.799+0000] {parse_hh.py:234} INFO - New profession was added: Юзабилити-специалист
+[2024-06-21T00:09:38.172+0000] {parse_hh.py:234} INFO - New profession was added: Веб-аналитик
+[2024-06-21T00:09:59.474+0000] {parse_hh.py:234} INFO - New profession was added: Специалист по информационным ресурсам
+[2024-06-21T00:10:19.468+0000] {parse_hh.py:234} INFO - New profession was added: Линк-менеджер
+[2024-06-21T00:10:20.688+0000] {parse_hh.py:234} INFO - New profession was added: Специалист по информационным системам
+[2024-06-21T00:10:49.597+0000] {parse_hh.py:234} INFO - New profession was added: Архитектор VR
+[2024-06-21T00:10:50.912+0000] {parse_hh.py:234} INFO - New profession was added: Flash-аниматор
+[2024-06-21T00:10:52.345+0000] {parse_hh.py:234} INFO - New profession was added: Дизайнер интерфейсов
+[2024-06-21T00:11:11.762+0000] {parse_hh.py:234} INFO - New profession was added: Системный инженер
+[2024-06-21T00:11:32.128+0000] {parse_hh.py:234} INFO - New profession was added: Gamedev (разработчик игр)
+[2024-06-21T00:11:51.577+0000] {parse_hh.py:234} INFO - New profession was added: Сетевой администратор
+[2024-06-21T00:12:11.956+0000] {parse_hh.py:234} INFO - New profession was added: Разработчик БД (баз данных)
+[2024-06-21T00:12:32.294+0000] {parse_hh.py:234} INFO - New profession was added: Embedded-программист
+[2024-06-21T00:12:52.542+0000] {parse_hh.py:234} INFO - New profession was added: Архитектор баз данных
+[2024-06-21T00:13:12.851+0000] {parse_hh.py:234} INFO - New profession was added: Программист PHP
+[2024-06-21T00:13:32.660+0000] {parse_hh.py:234} INFO - New profession was added: Программист Ruby
+[2024-06-21T00:13:52.367+0000] {parse_hh.py:234} INFO - New profession was added: Программист Java
+[2024-06-21T00:14:12.125+0000] {parse_hh.py:234} INFO - New profession was added: Android-разработчик
+[2024-06-21T00:14:31.727+0000] {parse_hh.py:234} INFO - New profession was added: iOS-разработчик
+[2024-06-21T00:14:53.095+0000] {parse_hh.py:234} INFO - New profession was added: Программист C#
+[2024-06-21T00:15:13.100+0000] {parse_hh.py:234} INFO - New profession was added: Разработчик нейроинтерфейсов
+[2024-06-21T00:15:14.336+0000] {parse_hh.py:234} INFO - New profession was added: Программист Python
+[2024-06-21T00:15:34.615+0000] {parse_hh.py:234} INFO - New profession was added: Программист Swift
+[2024-06-21T00:15:54.460+0000] {parse_hh.py:234} INFO - New profession was added: Архитектор информационных систем
+[2024-06-21T00:16:15.399+0000] {parse_hh.py:234} INFO - New profession was added: Биоинформатик
+[2024-06-21T00:16:16.610+0000] {parse_hh.py:234} INFO - New profession was added: Программист C++
+[2024-06-21T00:16:36.702+0000] {parse_hh.py:234} INFO - New profession was added: Программист JavaScript
+[2024-06-21T00:16:56.244+0000] {parse_hh.py:234} INFO - New profession was added: Программист Kotlin
+[2024-06-21T00:17:17.407+0000] {parse_hh.py:234} INFO - New profession was added: BI разработчик
+[2024-06-21T00:17:38.298+0000] {parse_hh.py:234} INFO - New profession was added: Data Mining Specialist
+[2024-06-21T00:17:39.703+0000] {parse_hh.py:234} INFO - New profession was added: Quant developer
+[2024-06-21T00:17:41.271+0000] {parse_hh.py:234} INFO - New profession was added: Intelligent Systems Developer
+[2024-06-21T00:18:00.941+0000] {parse_hh.py:234} INFO - New profession was added: Программист С
+[2024-06-21T00:18:20.967+0000] {parse_hh.py:234} INFO - New profession was added: Лингвоэксперт
+[2024-06-21T00:18:22.212+0000] {parse_hh.py:234} INFO - New profession was added: UX-дизайнер
+[2024-06-21T00:18:41.892+0000] {parse_hh.py:234} INFO - New profession was added: UX-аналитик
+[2024-06-21T00:19:02.221+0000] {parse_hh.py:234} INFO - New profession was added: UI-дизайнер
+[2024-06-21T00:19:22.203+0000] {parse_hh.py:234} INFO - New profession was added: Инженер-программист
+[2024-06-21T00:19:42.466+0000] {parse_hh.py:234} INFO - New profession was added: Компьютерный лингвист
+[2024-06-21T00:19:43.707+0000] {parse_hh.py:234} INFO - New profession was added: Аналитик
+[2024-06-21T00:20:06.958+0000] {parse_hh.py:234} INFO - New profession was added: Тестировщик мобильных приложений
+[2024-06-21T00:20:27.041+0000] {parse_hh.py:234} INFO - New profession was added: Системный аналитик
+[2024-06-21T00:20:49.367+0000] {parse_hh.py:234} INFO - New profession was added: Продуктовый аналитик
+[2024-06-21T00:21:12.715+0000] {parse_hh.py:234} INFO - New profession was added: Go-разработчик
+[2024-06-21T00:21:34.710+0000] {parse_hh.py:234} INFO - New profession was added: DevOps-инженер
+[2024-06-21T00:22:04.972+0000] {parse_hh.py:234} INFO - New profession was added: Data Engineer
+[2024-06-21T00:22:26.656+0000] {parse_hh.py:234} INFO - New profession was added: Big Data Analyst
+[2024-06-21T00:22:50.436+0000] {parse_hh.py:234} INFO - New profession was added: Fullstack-разработчик на PHP
+[2024-06-21T00:23:11.502+0000] {parse_hh.py:234} INFO - New profession was added: Fullstack-разработчик на JavaScript
+[2024-06-21T00:23:33.356+0000] {parse_hh.py:234} INFO - New profession was added: Fullstack-разработчик на Python
+[2024-06-21T00:23:34.922+0000] {parse_hh.py:234} INFO - New profession was added: Гейм-аналитик
+[2024-06-21T00:23:36.214+0000] {parse_hh.py:234} INFO - New profession was added: Разработчик чат-ботов
+[2024-06-21T00:23:58.330+0000] {parse_hh.py:234} INFO - New profession was added: Разработчик на Unity
+[2024-06-21T00:24:19.724+0000] {parse_hh.py:234} INFO - New profession was added: QA Automation Engineer
+[2024-06-21T00:24:40.522+0000] {parse_hh.py:234} INFO - New profession was added: Аналитик мобильных приложений
+[2024-06-21T00:25:02.976+0000] {parse_hh.py:234} INFO - New profession was added: Профессия fullstack-разработчик
+[2024-06-21T00:25:04.429+0000] {parse_hh.py:234} INFO - New profession was added: UX-исследователь
+[2024-06-21T00:25:26.251+0000] {parse_hh.py:234} INFO - New profession was added: Программист дронов
+[2024-06-21T00:25:27.807+0000] {parse_hh.py:234} INFO - New profession was added: VFX-дизайнер
+[2024-06-21T00:25:29.160+0000] {parse_hh.py:234} INFO - New profession was added: Специалист по кибербезопасности
+[2024-06-21T00:25:50.990+0000] {parse_hh.py:234} INFO - New profession was added: Разработчик на Unreal Engine
+[2024-06-21T00:26:12.517+0000] {parse_hh.py:234} INFO - New profession was added: Блокчейн-разработчик
+[2024-06-21T00:26:13.783+0000] {parse_hh.py:234} INFO - New profession was added: Разработчик нейросетей 
+[2024-06-21T00:26:36.619+0000] {parse_hh.py:234} INFO - New profession was added: ML-специалист
+[2024-06-21T00:26:38.078+0000] {parse_hh.py:234} INFO - New profession was added: Разработчик на React Native 
+[2024-06-21T00:26:59.413+0000] {parse_hh.py:234} INFO - New profession was added: Node.js-разработчик
+[2024-06-21T00:27:21.397+0000] {parse_hh.py:234} INFO - New profession was added: Prompt-инженер
+[2024-06-21T00:27:22.859+0000] {parse_hh.py:234} INFO - New profession was added: NLP-специалист
+[2024-06-21T00:27:24.233+0000] {parse_hh.py:234} INFO - New profession was added: Deep Learning Engineer
+[2024-06-21T00:27:46.438+0000] {parse_hh.py:234} INFO - New profession was added: Разработчик компьютерного зрения
+[2024-06-21T00:28:07.480+0000] {parse_hh.py:234} INFO - New profession was added: Пентестер
+[2024-06-21T00:28:09.102+0000] {parse_hh.py:234} INFO - New profession was added: Маркетолог
+[2024-06-21T00:28:31.565+0000] {parse_hh.py:234} INFO - New profession was added: SMM-специалист
+[2024-06-21T00:28:52.100+0000] {parse_hh.py:234} INFO - New profession was added: Веб-маркетолог
+[2024-06-21T00:28:53.663+0000] {parse_hh.py:245} INFO - task parsing_data was successfully completed
+[2024-06-21T00:28:53.664+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-21T00:28:53.664+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-21T00:28:53.669+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_data_etl_v53, task_id=data_etl.parsing_data.get_dataset_with_tags, run_id=scheduled__2024-06-20T12:00:00+00:00, execution_date=20240620T120000, start_date=20240621T000234, end_date=20240621T002853
+[2024-06-21T00:28:53.714+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-21T00:28:53.729+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-21T00:28:53.732+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

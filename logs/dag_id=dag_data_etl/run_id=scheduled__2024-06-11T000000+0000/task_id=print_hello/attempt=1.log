@@ -1,0 +1,16 @@
+[2024-06-12T00:15:39.310+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_data_etl.print_hello scheduled__2024-06-11T00:00:00+00:00 [queued]>
+[2024-06-12T00:15:39.316+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_data_etl.print_hello scheduled__2024-06-11T00:00:00+00:00 [queued]>
+[2024-06-12T00:15:39.316+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2024-06-12T00:15:39.328+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): print_hello> on 2024-06-11 00:00:00+00:00
+[2024-06-12T00:15:39.331+0000] {standard_task_runner.py:57} INFO - Started process 1208 to run task
+[2024-06-12T00:15:39.333+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dag_data_etl', 'print_hello', 'scheduled__2024-06-11T00:00:00+00:00', '--job-id', '349', '--raw', '--subdir', 'DAGS_FOLDER/data_etl_dag.py', '--cfg-path', '/tmp/tmpgf4neugg']
+[2024-06-12T00:15:39.334+0000] {standard_task_runner.py:85} INFO - Job 349: Subtask print_hello
+[2024-06-12T00:15:39.363+0000] {task_command.py:416} INFO - Running <TaskInstance: dag_data_etl.print_hello scheduled__2024-06-11T00:00:00+00:00 [running]> on host c09d00e80527
+[2024-06-12T00:15:39.418+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Solarev Ruslan' AIRFLOW_CTX_DAG_ID='dag_data_etl' AIRFLOW_CTX_TASK_ID='print_hello' AIRFLOW_CTX_EXECUTION_DATE='2024-06-11T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-11T00:00:00+00:00'
+[2024-06-12T00:15:39.419+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-12T00:15:39.419+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "hello world" > /opt/***/data/hello.txt']
+[2024-06-12T00:15:39.425+0000] {subprocess.py:86} INFO - Output:
+[2024-06-12T00:15:39.428+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-12T00:15:39.443+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag_data_etl, task_id=print_hello, execution_date=20240611T000000, start_date=20240612T001539, end_date=20240612T001539
+[2024-06-12T00:15:39.465+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-06-12T00:15:39.474+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

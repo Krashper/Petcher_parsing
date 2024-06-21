@@ -1,0 +1,29 @@
+[2024-06-17T12:08:56.964+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-17T12:08:56.981+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_data_etl_v12.get_dataset_with_tags scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-06-17T12:08:56.986+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_data_etl_v12.get_dataset_with_tags scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-06-17T12:08:56.987+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2024-06-17T12:08:56.995+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): get_dataset_with_tags> on 2024-06-17 00:00:00+00:00
+[2024-06-17T12:08:57.000+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dag_data_etl_v12', 'get_dataset_with_tags', 'scheduled__2024-06-17T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/data_etl_dag.py', '--cfg-path', '/tmp/tmp15t4gq6i']
+[2024-06-17T12:08:57.002+0000] {standard_task_runner.py:91} INFO - Job 40: Subtask get_dataset_with_tags
+[2024-06-17T12:08:57.002+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1714) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-06-17T12:08:57.003+0000] {standard_task_runner.py:63} INFO - Started process 1716 to run task
+[2024-06-17T12:08:57.028+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_data_etl_v12.get_dataset_with_tags scheduled__2024-06-17T00:00:00+00:00 [running]> on host 10482076056f
+[2024-06-17T12:08:57.079+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Solarev Ruslan' AIRFLOW_CTX_DAG_ID='dag_data_etl_v12' AIRFLOW_CTX_TASK_ID='get_dataset_with_tags' AIRFLOW_CTX_EXECUTION_DATE='2024-06-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-17T00:00:00+00:00'
+[2024-06-17T12:08:57.080+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-17T12:08:57.083+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Администратор базы данных
+[2024-06-17T12:09:10.551+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: ERP-программист
+[2024-06-17T12:09:24.406+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Тестировщик программного обеспечения (ПО)
+[2024-06-17T12:09:38.594+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Модератор форума
+[2024-06-17T12:09:40.308+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: HTML-верстальщик
+[2024-06-17T12:09:41.904+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Системный администратор
+[2024-06-17T12:09:57.727+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: IT-евангелист
+[2024-06-17T12:09:59.269+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Технический писатель
+[2024-06-17T12:10:17.900+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Администратор сайта
+[2024-06-17T12:10:32.835+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Бизнес-аналитик 
+[2024-06-17T12:10:56.191+0000] {logging_mixin.py:188} INFO - Тип: <class 'pandas.core.frame.DataFrame'>
+[2024-06-17T12:10:56.205+0000] {python.py:237} INFO - Done. Returned value was: dags/data/Parsed_data.csv
+[2024-06-17T12:10:56.205+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-17T12:10:56.217+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_data_etl_v12, task_id=get_dataset_with_tags, run_id=scheduled__2024-06-17T00:00:00+00:00, execution_date=20240617T000000, start_date=20240617T120856, end_date=20240617T121056
+[2024-06-17T12:10:56.251+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-17T12:10:56.264+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-17T12:10:56.266+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,201 @@
+[2024-06-17T00:18:57.152+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-17T00:18:57.166+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_data_etl_v3.parse_data scheduled__2024-06-16T12:00:00+00:00 [queued]>
+[2024-06-17T00:18:57.170+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_data_etl_v3.parse_data scheduled__2024-06-16T12:00:00+00:00 [queued]>
+[2024-06-17T00:18:57.171+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 6
+[2024-06-17T00:18:57.179+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): parse_data> on 2024-06-16 12:00:00+00:00
+[2024-06-17T00:18:57.184+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dag_data_etl_v3', 'parse_data', 'scheduled__2024-06-16T12:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/data_etl_dag.py', '--cfg-path', '/tmp/tmp6ekm6x1s']
+[2024-06-17T00:18:57.185+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1774) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-06-17T00:18:57.186+0000] {standard_task_runner.py:91} INFO - Job 21: Subtask parse_data
+[2024-06-17T00:18:57.186+0000] {standard_task_runner.py:63} INFO - Started process 1776 to run task
+[2024-06-17T00:18:57.212+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_data_etl_v3.parse_data scheduled__2024-06-16T12:00:00+00:00 [running]> on host 10482076056f
+[2024-06-17T00:18:57.257+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Solarev Ruslan' AIRFLOW_CTX_DAG_ID='dag_data_etl_v3' AIRFLOW_CTX_TASK_ID='parse_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-16T12:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-16T12:00:00+00:00'
+[2024-06-17T00:18:57.258+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-17T00:18:57.278+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Администратор базы данных
+[2024-06-17T00:19:08.106+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: ERP-программист
+[2024-06-17T00:19:19.653+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Тестировщик программного обеспечения (ПО)
+[2024-06-17T00:19:30.811+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Модератор форума
+[2024-06-17T00:19:32.228+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: HTML-верстальщик
+[2024-06-17T00:19:33.836+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Системный администратор
+[2024-06-17T00:19:46.286+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: IT-евангелист
+[2024-06-17T00:19:47.711+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Технический писатель
+[2024-06-17T00:19:57.923+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Администратор сайта
+[2024-06-17T00:20:09.447+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Бизнес-аналитик 
+[2024-06-17T00:20:22.046+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Специалист по информационной безопасности
+[2024-06-17T00:20:33.351+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Веб-программист
+[2024-06-17T00:20:44.069+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист
+[2024-06-17T00:20:55.397+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист 1С
+[2024-06-17T00:21:06.186+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Системный программист
+[2024-06-17T00:21:17.242+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: ERP-консультант
+[2024-06-17T00:21:29.712+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Корпоративный архитектор
+[2024-06-17T00:21:40.785+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: QA-инженер
+[2024-06-17T00:21:51.595+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: SEO-специалист
+[2024-06-17T00:22:02.026+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Data Scientist
+[2024-06-17T00:22:13.413+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Frontend разработчик
+[2024-06-17T00:22:25.159+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Backend разработчик
+[2024-06-17T00:22:36.134+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Мобильный разработчик
+[2024-06-17T00:22:48.028+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Юзабилити-специалист
+[2024-06-17T00:22:49.755+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Веб-аналитик
+[2024-06-17T00:23:00.531+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Специалист по информационным ресурсам
+[2024-06-17T00:23:13.056+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Линк-менеджер
+[2024-06-17T00:23:14.452+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Специалист по информационным системам
+[2024-06-17T00:23:29.149+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Архитектор VR
+[2024-06-17T00:23:30.583+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Flash-аниматор
+[2024-06-17T00:23:32.227+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Дизайнер интерфейсов
+[2024-06-17T00:23:43.220+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Системный инженер
+[2024-06-17T00:23:54.850+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Gamedev (разработчик игр)
+[2024-06-17T00:24:06.068+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Сетевой администратор
+[2024-06-17T00:24:17.950+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Разработчик БД (баз данных)
+[2024-06-17T00:24:28.407+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Embedded-программист
+[2024-06-17T00:24:39.261+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Архитектор баз данных
+[2024-06-17T00:24:50.995+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист PHP
+[2024-06-17T00:25:02.071+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист Ruby
+[2024-06-17T00:25:12.454+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист Java
+[2024-06-17T00:25:23.810+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Android-разработчик
+[2024-06-17T00:25:34.807+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: iOS-разработчик
+[2024-06-17T00:25:46.052+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист C#
+[2024-06-17T00:25:57.346+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Разработчик нейроинтерфейсов
+[2024-06-17T00:25:58.931+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист Python
+[2024-06-17T00:26:09.445+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист Swift
+[2024-06-17T00:26:20.533+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Архитектор информационных систем
+[2024-06-17T00:26:32.027+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Биоинформатик
+[2024-06-17T00:26:33.433+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист C++
+[2024-06-17T00:26:44.102+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист JavaScript
+[2024-06-17T00:26:55.068+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист Kotlin
+[2024-06-17T00:27:06.008+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: BI разработчик
+[2024-06-17T00:27:17.243+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Data Mining Specialist
+[2024-06-17T00:27:18.984+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Quant developer
+[2024-06-17T00:27:20.930+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Intelligent Systems Developer
+[2024-06-17T00:27:31.759+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист С
+[2024-06-17T00:27:43.386+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Лингвоэксперт
+[2024-06-17T00:27:44.829+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: UX-дизайнер
+[2024-06-17T00:27:54.966+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: UX-аналитик
+[2024-06-17T00:28:05.860+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: UI-дизайнер
+[2024-06-17T00:28:16.888+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Инженер-программист
+[2024-06-17T00:28:27.109+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Компьютерный лингвист
+[2024-06-17T00:28:28.489+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Аналитик
+[2024-06-17T00:28:39.220+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Тестировщик мобильных приложений
+[2024-06-17T00:28:49.465+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Системный аналитик
+[2024-06-17T00:29:00.635+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Продуктовый аналитик
+[2024-06-17T00:29:12.258+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Go-разработчик
+[2024-06-17T00:29:22.986+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: DevOps-инженер
+[2024-06-17T00:29:33.840+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Data Engineer
+[2024-06-17T00:29:44.250+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Big Data Analyst
+[2024-06-17T00:29:55.341+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Fullstack-разработчик на PHP
+[2024-06-17T00:30:05.719+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Fullstack-разработчик на JavaScript
+[2024-06-17T00:30:15.977+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Fullstack-разработчик на Python
+[2024-06-17T00:30:17.639+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Гейм-аналитик
+[2024-06-17T00:30:19.405+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Разработчик чат-ботов
+[2024-06-17T00:30:30.464+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Разработчик на Unity
+[2024-06-17T00:30:41.621+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: QA Automation Engineer
+[2024-06-17T00:30:52.327+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Аналитик мобильных приложений
+[2024-06-17T00:31:03.636+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Профессия fullstack-разработчик
+[2024-06-17T00:31:05.221+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: UX-исследователь
+[2024-06-17T00:31:16.177+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Программист дронов
+[2024-06-17T00:31:17.516+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: VFX-дизайнер
+[2024-06-17T00:31:18.858+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Специалист по кибербезопасности
+[2024-06-17T00:31:30.813+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Разработчик на Unreal Engine
+[2024-06-17T00:31:40.865+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Блокчейн-разработчик
+[2024-06-17T00:31:42.383+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Разработчик нейросетей 
+[2024-06-17T00:31:54.347+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: ML-специалист
+[2024-06-17T00:31:55.823+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Разработчик на React Native 
+[2024-06-17T00:32:06.191+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Node.js-разработчик
+[2024-06-17T00:32:17.097+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Prompt-инженер
+[2024-06-17T00:32:18.481+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: NLP-специалист
+[2024-06-17T00:32:19.900+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Deep Learning Engineer
+[2024-06-17T00:32:21.556+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Разработчик компьютерного зрения
+[2024-06-17T00:32:32.546+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Пентестер
+[2024-06-17T00:32:34.043+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Маркетолог
+[2024-06-17T00:32:45.383+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: SMM-специалист
+[2024-06-17T00:32:57.309+0000] {logging_mixin.py:188} INFO - Добавлена новая профессия: Веб-маркетолог
+[2024-06-17T00:32:59.184+0000] {xcom.py:675} ERROR - Object of type DataFrame is not JSON serializable. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your *** config or make sure to decorate your object with attr.
+[2024-06-17T00:32:59.185+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-17T00:32:59.186+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/json.py", line 91, in default
+    return serialize(o)
+           ^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/serialization/serde.py", line 148, in serialize
+    data, serialized_classname, version, is_serialized = _serializers[qn].serialize(o)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/serialization/serializers/pandas.py", line 49, in serialize
+    table = pa.Table.from_pandas(o)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4525, in pyarrow.lib.Table.from_pandas
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyarrow/pandas_compat.py", line 624, in dataframe_to_arrays
+    arrays[i] = maybe_fut.result()
+                ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyarrow/pandas_compat.py", line 598, in convert_column
+    raise e
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyarrow/pandas_compat.py", line 592, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 345, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 85, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 91, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'list' object", 'Conversion failed for column Tags with type object')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/tasks/parse_hh.py", line 227, in get_dataset_with_tags
+    ti.xcom_push(key="dataset", value=dataset)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3197, in xcom_push
+    XCom.set(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/xcom.py", line 246, in set
+    value = cls.serialize_value(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/xcom.py", line 673, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/json.py", line 104, in encode
+    return super().encode(o)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/json.py", line 93, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+[2024-06-17T00:32:59.194+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_data_etl_v3, task_id=parse_data, run_id=scheduled__2024-06-16T12:00:00+00:00, execution_date=20240616T120000, start_date=20240617T001857, end_date=20240617T003259
+[2024-06-17T00:32:59.202+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 21 for task parse_data (Object of type DataFrame is not JSON serializable; 1776)
+[2024-06-17T00:32:59.215+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-17T00:32:59.225+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-17T00:32:59.228+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

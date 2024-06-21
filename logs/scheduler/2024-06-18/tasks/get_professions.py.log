@@ -1,0 +1,64 @@
+[2024-06-18T03:09:07.950+0000] {processor.py:161} INFO - Started process (PID=20327) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:09:07.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:09:07.951+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:09:07.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:09:07.976+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:09:07.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.037 seconds
+[2024-06-18T03:09:38.032+0000] {processor.py:161} INFO - Started process (PID=20368) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:09:38.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:09:38.033+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:09:38.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:09:38.050+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:09:38.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.029 seconds
+[2024-06-18T03:09:46.328+0000] {processor.py:161} INFO - Started process (PID=20385) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:09:46.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:09:46.330+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:09:46.330+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:09:46.336+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:09:46.336+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/tasks/get_professions.py assumed to contain no DAGs. Skipping.
+[2024-06-18T03:09:46.336+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:09:46.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.020 seconds
+[2024-06-18T03:10:17.194+0000] {processor.py:161} INFO - Started process (PID=20426) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:10:17.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:10:17.195+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:10:17.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:10:17.200+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:10:17.200+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/tasks/get_professions.py assumed to contain no DAGs. Skipping.
+[2024-06-18T03:10:17.200+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:10:17.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.017 seconds
+[2024-06-18T03:10:47.924+0000] {processor.py:161} INFO - Started process (PID=20467) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:10:47.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:10:47.925+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:10:47.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:10:47.929+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:10:47.929+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/tasks/get_professions.py assumed to contain no DAGs. Skipping.
+[2024-06-18T03:10:47.929+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:10:47.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.016 seconds
+[2024-06-18T03:11:18.702+0000] {processor.py:161} INFO - Started process (PID=20508) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:11:18.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:11:18.703+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:11:18.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:11:18.707+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:11:18.707+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/tasks/get_professions.py assumed to contain no DAGs. Skipping.
+[2024-06-18T03:11:18.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:11:18.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.017 seconds
+[2024-06-18T03:11:49.597+0000] {processor.py:161} INFO - Started process (PID=20549) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:11:49.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:11:49.598+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:11:49.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:11:49.603+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:11:49.603+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/tasks/get_professions.py assumed to contain no DAGs. Skipping.
+[2024-06-18T03:11:49.604+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:11:49.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.018 seconds
+[2024-06-18T03:12:20.437+0000] {processor.py:161} INFO - Started process (PID=20590) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:12:20.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:12:20.438+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:12:20.438+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:12:20.442+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:12:20.442+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/tasks/get_professions.py assumed to contain no DAGs. Skipping.
+[2024-06-18T03:12:20.442+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:12:20.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.016 seconds
+[2024-06-18T03:12:50.725+0000] {processor.py:161} INFO - Started process (PID=20637) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:12:50.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:12:50.726+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:12:50.726+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:12:50.731+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:12:50.731+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/tasks/get_professions.py assumed to contain no DAGs. Skipping.
+[2024-06-18T03:12:50.731+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:12:50.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.018 seconds
+[2024-06-18T03:13:20.864+0000] {processor.py:161} INFO - Started process (PID=20684) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:13:20.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:13:20.865+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:13:20.865+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:13:20.870+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:13:20.870+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/tasks/get_professions.py assumed to contain no DAGs. Skipping.
+[2024-06-18T03:13:20.870+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:13:20.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.018 seconds
+[2024-06-18T03:13:51.023+0000] {processor.py:161} INFO - Started process (PID=20731) to work on /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:13:51.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tasks/get_professions.py for tasks to queue
+[2024-06-18T03:13:51.024+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:13:51.024+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:13:51.029+0000] {logging_mixin.py:188} INFO - [2024-06-18T03:13:51.029+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/tasks/get_professions.py assumed to contain no DAGs. Skipping.
+[2024-06-18T03:13:51.029+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/get_professions.py
+[2024-06-18T03:13:51.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tasks/get_professions.py took 0.018 seconds

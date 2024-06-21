@@ -1,0 +1,1 @@
+[2024-06-20T11:26:46.843+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: dag_data_etl_v30.data_etl.preprocess_data.preprocess_tags scheduled__2024-06-18T00:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
